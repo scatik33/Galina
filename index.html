@@ -5,64 +5,83 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Kolonitskaia Galina</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
+  <!-- Header Section -->
   <header>
-    <h1>Kolonitskaia Galina</h1>
-    <p class="subtitle">Фотостудия с душой</p>
-    <nav>
-      <a href="#about">Обо мне</a>
-      <a href="#portfolio">Портфолио</a>
-      <a href="#services">Услуги</a>
-      <a href="#contact">Контакты</a>
-    </nav>
+    <div class="container">
+      <h1>Kolonitskaia Galina</h1>
+      <p class="subtitle">Фотостудия с душой</p>
+      <nav>
+        <a href="#about">Обо мне</a>
+        <a href="#portfolio">Портфолио</a>
+        <a href="#services">Услуги</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+      <a href="#book" class="button">Записаться на фотосессию</a>
+    </div>
   </header>
 
-  <section id="about" class="block">
-    <h2>Обо мне</h2>
-    <p>Меня зовут Галина, я фотограф, который ценит уют, натуральный свет и настоящие эмоции. Моя цель — создавать фотографии, в которых есть душа.</p>
-  </section>
-
-  <section id="portfolio" class="block">
-    <h2>Портфолио</h2>
-    <div class="gallery">
-      <div class="photo-frame">Фото</div>
-      <div class="photo-frame">Фото</div>
-      <div class="photo-frame">Фото</div>
-      <div class="photo-frame">Фото</div>
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>Обо мне</h2>
+      <p>Меня зовут Галина, я фотограф, который ценит уют, натуральный свет и настоящие эмоции. Моя цель — создавать фотографии, в которых есть душа. Вдохновляюсь простотой, но всегда стремлюсь к индивидуальности в каждой съемке.</p>
     </div>
   </section>
 
-  <section id="services" class="block">
-    <h2>Услуги</h2>
-    <ul>
-      <li>Портретная съёмка</li>
-      <li>Семейные фотосессии</li>
-      <li>Свадьбы</li>
-      <li>Детская и тематическая фотография</li>
-    </ul>
-  </section>
-
-  <section id="contact" class="block">
-    <h2>Контакты</h2>
-    <p>Telegram: @kolonitskaia</p>
-    <p>Instagram: @galinaphoto</p>
-    <p>Телефон: +373 123 45678</p>
-  </section>
-
-  <!-- Кнопка записи -->
-  <section id="book" class="block">
-    <h2>Записаться на фотосессию</h2>
-    <p>Чтобы забронировать фотосессию, выберите удобный способ связи:</p>
-    <div class="contact-buttons">
-      <a href="https://t.me/kolonitskaia" target="_blank" class="contact-btn telegram">Telegram</a>
-      <a href="tel:+37312345678" class="contact-btn phone">Телефон</a>
-      <a href="https://instagram.com/galinaphoto" target="_blank" class="contact-btn instagram">Instagram</a>
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="section">
+    <div class="container">
+      <h2>Портфолио</h2>
+      <div class="gallery">
+        <div class="photo-frame"><img src="photo1.jpg" alt="Фото 1"></div>
+        <div class="photo-frame"><img src="photo2.jpg" alt="Фото 2"></div>
+        <div class="photo-frame"><img src="photo3.jpg" alt="Фото 3"></div>
+        <div class="photo-frame"><img src="photo4.jpg" alt="Фото 4"></div>
+      </div>
     </div>
   </section>
 
+  <!-- Services Section -->
+  <section id="services" class="section">
+    <div class="container">
+      <h2>Услуги</h2>
+      <ul>
+        <li>Портретная съёмка</li>
+        <li>Семейные фотосессии</li>
+        <li>Свадьбы</li>
+        <li>Детская и тематическая фотография</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Контакты</h2>
+      <p>Telegram: <a href="https://t.me/kolonitskaia" target="_blank">@kolonitskaia</a></p>
+      <p>Instagram: <a href="https://instagram.com/galinaphoto" target="_blank">@galinaphoto</a></p>
+      <p>Телефон: <a href="tel:+37312345678">+373 123 45678</a></p>
+    </div>
+  </section>
+
+  <!-- Book Section -->
+  <section id="book" class="section">
+    <div class="container">
+      <h2>Записаться на фотосессию</h2>
+      <p>Чтобы забронировать фотосессию, выберите удобный способ связи:</p>
+      <div class="contact-buttons">
+        <a href="https://t.me/kolonitskaia" target="_blank" class="contact-btn telegram">Telegram</a>
+        <a href="tel:+37312345678" class="contact-btn phone">Телефон</a>
+        <a href="https://instagram.com/galinaphoto" target="_blank" class="contact-btn instagram">Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
   <footer>
     <p>© 2025 Kolonitskaia Galina</p>
   </footer>
